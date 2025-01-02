@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Assign <input>",
+  "description": "set <input> tag's value.",
+  "permissions": ["storage","tabs","activeTab","scripting","contextMenus"],
+  "version": "1.0",
+  "action": {
+    "default_popup": "assignInput.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
